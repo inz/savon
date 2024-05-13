@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://savonrb.com"
   s.summary     = "Heavy metal SOAP client"
   s.description = s.summary
-  s.required_ruby_version = '>= 2.7.0'
+  s.required_ruby_version = '>= 2.6.0'
 
   s.license = 'MIT'
 
@@ -25,8 +25,8 @@ Gem::Specification.new do |s|
   s.add_dependency "nokogiri", ">= 1.8.1"
   s.add_dependency "mail",     "~> 2.5"
 
-  s.add_development_dependency "rack"
-  s.add_development_dependency "puma",  ">= 4.3.8"
+  s.add_development_dependency "rack", "~> 2.0"
+  s.add_development_dependency "puma",  "~> 5.0"
 
   s.add_development_dependency "byebug"
   s.add_development_dependency "rake",  ">= 12.3.3"
